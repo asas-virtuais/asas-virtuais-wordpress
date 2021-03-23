@@ -1,0 +1,14 @@
+{
+    "name": "asas-virtuais/asas-virtuais-wordpress",
+    "version": "1.0.0",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ícaro C. Capobianco",
+            "email": "icaro.capobianco@gmail.com"
+        }
+    ],
+    "require": {
+        "yahnis-elsts/plugin-update-checker": "^4.10"
+    }
+}
