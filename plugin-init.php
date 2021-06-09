@@ -49,7 +49,7 @@ if ( ! defined( 'WPINC' ) ) {
 				] );
 
 				if ( $continue ) {
-					AsasVirtuaisWordpress\init_plugin_updater( 'http://playground.gsgmothership.com/pre-release-updater/wp-update-server/?action=get_metadata&slug=gsg-products', __FILE__ );
+					// AsasVirtuaisWordpress\init_plugin_updater( 'PuC', __FILE__ );
 					include_once $framework->plugin_dir . 'plugin-lib.php';
 				}
 
