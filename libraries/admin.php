@@ -21,3 +21,14 @@ function admin_warning( $message, $dismissible = false ) {
 function admin_success( $message, $dismissible = false ) {
 	return admin_notice( $message, 'success', $dismissible );
 }
+function admin_page( string $title, callable $callback, $capability = 'administrator', $icon_url = '', $position = '' ) {
+	return add_menu_page(
+		$title,
+		$title,
+		$capability,
+		sanitize_title( $title ),
+		$callback,
+		$icon_url,
+		$position
+	);
+}
