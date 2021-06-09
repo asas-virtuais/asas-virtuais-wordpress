@@ -45,7 +45,7 @@ if ( ! defined( 'WPINC' ) ) {
 
 				$plugin_data = AsasVirtuaisWordpress\get_plugin_data( __FILE__ );
 
-				$continue = AsasVirtuaisWordpress\require_plugins( $plugin_data['Plugin Name'], [
+				$continue = AsasVirtuaisWordpress\require_plugins( $plugin_data['Name'], [
 				] );
 
 				if ( $continue ) {
