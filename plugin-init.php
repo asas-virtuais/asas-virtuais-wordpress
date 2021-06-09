@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Plugin Name
- * Version: 1.1.0
+ * Version: 1.0.0
  * Description:
  */
 
