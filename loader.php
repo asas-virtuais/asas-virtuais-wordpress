@@ -1,7 +1,7 @@
 <?php
 
 return function ( $autoloader ) {
-	$this_version = '1.1.2';
+	$this_version = '1.1.3';
 	add_filter( 'asas.version', function ( $version ) use ( $this_version ) {
 		if ( ! $version || version_compare( $this_version, $version, '>' ) ) {
 			return $this_version;
