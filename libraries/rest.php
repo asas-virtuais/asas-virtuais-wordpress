@@ -1,7 +1,7 @@
 <?php
 namespace AsasVirtuaisWordpress;
 
-function register_rest_route( string $namespace, callable $route, array $args = [], $override = false ) {
+function register_rest_route( string $namespace, string $route, array $args = [], $override = false ) {
 	$args['callback'] = safe_callback( $args['callback'] );
 	return \register_rest_route( $namespace, $route, $args, $override );
 }
